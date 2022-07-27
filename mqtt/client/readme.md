@@ -11,6 +11,9 @@ Use at your own risk!
 
 (Reason is most likely because the mpower firmware/wget does not support newer TLS/SLL protocols required by github.)
 
+Alternatively is to use an intermediate web server.
+And in the install-client.sh change the host to your ip for said web server. (You can use your own pc as well.) 
+
 Use a SSH client and connect to your mPower device.
 Internet access is required to use the automated installation process. If you don't have internet access you need to perform all steps of [install-client.sh](https://github.com/magcode/mpower-tools/blob/master/mqtt/client/install-client.sh) manually.
 
